@@ -1,0 +1,7 @@
+name: MagicalClock
+version: 1.0
+main: com.jade.magicalclock.MagicalClockPlugin
+
+permissions:
+    magicalclock.alwaysvisible:
+        description: Leaves this player visible to players who have their magical clock toggled on

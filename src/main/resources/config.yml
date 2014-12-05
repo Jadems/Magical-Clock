@@ -1,0 +1,6 @@
+AlwaysShowOps: true
+GiveClockOnLogin: true
+GiveClockOnRespawn: true
+PreventDroppingClock: true
+AllowNormalClockUse: false
+ToggleDelayMillis: 1000
