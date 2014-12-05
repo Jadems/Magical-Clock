@@ -1,7 +1,7 @@
 Magical-Clock
 =============
 
-A simple open-source Magic Clock plugin for Bukkit that works correctly. 
+A simple Magic Clock plugin for Bukkit. 
 This will hide other players from users with their clocks toggled on and does not fail to hide users that logged in after the clock was toggled.
 
 Any player that has the permission "magicalclock.alwaysvisible" will not disappear even when the clock is toggled.
