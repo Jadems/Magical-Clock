@@ -18,7 +18,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 import java.util.*;
 
 /**
- * Created by matt on 12/4/2014.
+ * A simple Magical Clock plugin
+ * Created by Jadems on 12/4/2014.
  */
 public class MagicalClockPlugin extends JavaPlugin implements Listener {
 	private HashSet<String> enabledPlayers;
