@@ -40,8 +40,6 @@ public class MagicalClockPlugin extends JavaPlugin implements Listener {
 
 	private ItemStack clockItem;
 
-	private static MagicalClockPlugin instance;
-
 	@Override
 	public void onEnable() {
 		super.onEnable();
@@ -73,7 +71,6 @@ public class MagicalClockPlugin extends JavaPlugin implements Listener {
 		toggleDelay = new HashMap();
 
 		Bukkit.getPluginManager().registerEvents(this, this);
-		MagicalClockPlugin.instance = this;
 	}
 
 	private boolean isPlayerSpamming(Player player) {
@@ -241,9 +238,5 @@ public class MagicalClockPlugin extends JavaPlugin implements Listener {
 				givePlayerClock(joiningPlayer);
 			}
 		}
-	}
-
-	public static MagicalClockPlugin getInstance() {
-		return instance;
 	}
 }
